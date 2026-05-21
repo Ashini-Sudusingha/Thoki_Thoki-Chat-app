@@ -60,34 +60,62 @@ hddp/ (Workspace Root)
 
 ## 📱 App Screenshots
 
-Here is a visual preview of the mobile application interface:
+Here is a visual walk-through of the mobile application interface, organized by user flow:
 
+### 1. Onboarding & Registration Flow
 <table style="width: 100%; border-collapse: collapse; border: none;">
   <tr style="border: none;">
-    <td align="center" style="width: 33%; border: none; padding: 10px;">
-      <b>Avatar Selection & Sign Up</b><br/>
-      <img src="./docs/images/avatar_selection.png" width="220" alt="Avatar Selection" style="border-radius: 10px; margin-top: 5px;"/>
+    <td align="center" style="width: 25%; border: none; padding: 5px;">
+      <b>Welcome Screen</b><br/>
+      <img src="./docs/images/welcome_screen.png" width="180" alt="Welcome Screen" style="border-radius: 8px; margin-top: 5px;"/>
     </td>
-    <td align="center" style="width: 33%; border: none; padding: 10px;">
-      <b>Contact List</b><br/>
-      <img src="./docs/images/select_contact.png" width="220" alt="Select Contact" style="border-radius: 10px; margin-top: 5px;"/>
+    <td align="center" style="width: 25%; border: none; padding: 5px;">
+      <b>Sign In Screen</b><br/>
+      <img src="./docs/images/sign_in.png" width="180" alt="Sign In" style="border-radius: 8px; margin-top: 5px;"/>
     </td>
-    <td align="center" style="width: 33%; border: none; padding: 10px;">
-      <b>Create Contact</b><br/>
-      <img src="./docs/images/new_contact.png" width="220" alt="Create Contact" style="border-radius: 10px; margin-top: 5px;"/>
+    <td align="center" style="width: 25%; border: none; padding: 5px;">
+      <b>Sign Up (Name)</b><br/>
+      <img src="./docs/images/sign_up.png" width="180" alt="Sign Up" style="border-radius: 8px; margin-top: 5px;"/>
+    </td>
+    <td align="center" style="width: 25%; border: none; padding: 5px;">
+      <b>Avatar Selection</b><br/>
+      <img src="./docs/images/avatar_selection.png" width="180" alt="Avatar Selection" style="border-radius: 8px; margin-top: 5px;"/>
     </td>
   </tr>
+</table>
+
+### 2. Contacts & Chats Management
+<table style="width: 100%; border-collapse: collapse; border: none;">
   <tr style="border: none;">
-    <td align="center" style="width: 33%; border: none; padding: 10px;">
+    <td align="center" style="width: 25%; border: none; padding: 5px;">
+      <b>Chats List & Menu</b><br/>
+      <img src="./docs/images/chats_home_menu.png" width="180" alt="Chats Home" style="border-radius: 8px; margin-top: 5px;"/>
+    </td>
+    <td align="center" style="width: 25%; border: none; padding: 5px;">
+      <b>Select Contact</b><br/>
+      <img src="./docs/images/select_contact.png" width="180" alt="Select Contact" style="border-radius: 8px; margin-top: 5px;"/>
+    </td>
+    <td align="center" style="width: 25%; border: none; padding: 5px;">
+      <b>Search Contact</b><br/>
+      <img src="./docs/images/contact_search.png" width="180" alt="Search Contact" style="border-radius: 8px; margin-top: 5px;"/>
+    </td>
+    <td align="center" style="width: 25%; border: none; padding: 5px;">
+      <b>Create Contact</b><br/>
+      <img src="./docs/images/new_contact.png" width="180" alt="Create Contact" style="border-radius: 8px; margin-top: 5px;"/>
+    </td>
+  </tr>
+</table>
+
+### 3. Active Chat & Profile
+<table style="width: 100%; border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td align="center" style="width: 50%; border: none; padding: 5px;">
       <b>Active Chat Screen</b><br/>
-      <img src="./docs/images/chat_screen.png" width="220" alt="Active Chat" style="border-radius: 10px; margin-top: 5px;"/>
+      <img src="./docs/images/chat_screen.png" width="180" alt="Active Chat" style="border-radius: 8px; margin-top: 5px;"/>
     </td>
-    <td align="center" style="width: 33%; border: none; padding: 10px;">
-      <b>My Profile</b><br/>
-      <img src="./docs/images/profile_screen.png" width="220" alt="My Profile" style="border-radius: 10px; margin-top: 5px;"/>
-    </td>
-    <td align="center" style="width: 33%; border: none; padding: 10px;">
-      <!-- Empty space for layout balance -->
+    <td align="center" style="width: 50%; border: none; padding: 5px;">
+      <b>My Profile Screen</b><br/>
+      <img src="./docs/images/profile_screen.png" width="180" alt="My Profile" style="border-radius: 8px; margin-top: 5px;"/>
     </td>
   </tr>
 </table>
