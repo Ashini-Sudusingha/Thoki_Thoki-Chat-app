@@ -1,0 +1,58 @@
+# ====================================================================
+# Root .gitignore for Chat Application (Java Backend & Expo Frontend)
+# ====================================================================
+
+# OS/System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+
+# IDEs and Editors (VS Code, IntelliJ, Eclipse, NetBeans Private)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.classpath
+.project
+.settings/
+*.ipr
+*.iws
+nbproject/private/
+nbproject/project.properties.private
+nbproject/project.xml.private
+build.xml.local
+
+# ====================================================================
+# Frontend: React Native / Expo (thoki)
+# ====================================================================
+thoki/node_modules/
+thoki/.expo/
+thoki/dist/
+thoki/web-build/
+thoki/expo-env.d.ts
+thoki/npm-debug.*
+thoki/yarn-debug.*
+thoki/yarn-error.*
+thoki/.env*.local
+thoki/*.tsbuildinfo
+
+# Ignore generated native platform folders (if any)
+thoki/ios/
+thoki/android/
+
+# ====================================================================
+# Backend: Java EE / NetBeans (ChatApp)
+# ====================================================================
+ChatApp/build/
+ChatApp/dist/
+ChatApp/nbproject/private/
+ChatApp/web/WEB-INF/classes/
+ChatApp/web/WEB-INF/lib/
+
+# Note: We do NOT ignore the `ChatApp/lib/*.jar` files because NetBeans
+# depends on these local libraries to compile and run the backend.

@@ -1,0 +1,21 @@
+# ====================================================================
+# Java Backend (ChatApp) .gitignore
+# ====================================================================
+
+# NetBeans and Ant Build Folders
+build/
+dist/
+
+# NetBeans Private Configuration Files (machine-specific)
+nbproject/private/
+nbproject/project.properties.private
+nbproject/project.xml.private
+build.xml.local
+
+# Web Compiled Output
+web/WEB-INF/classes/
+web/WEB-INF/lib/
+
+# OS specific files
+.DS_Store
+Thumbs.db
